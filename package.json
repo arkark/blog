@@ -5,11 +5,10 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server --open"
   },
   "hexo": {
-    "version": ""
+    "version": "5.2.0"
   },
   "dependencies": {
     "hexo": "^5.0.0",
