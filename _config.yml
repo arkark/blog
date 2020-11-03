@@ -107,3 +107,7 @@ theme: cactus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ""
+
+# hexo-all-minifier
+## https://github.com/chenzhutian/hexo-all-minifier
+all_minifier: true
