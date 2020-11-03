@@ -110,3 +110,9 @@ deploy:
 
 html_minifier:
   conservativeCollapse: true
+
+# hexo-renderer-markdown-it
+## https://github.com/hexojs/hexo-renderer-markdown-it
+markdown:
+  plugins:
+    - "@iktakahiro/markdown-it-katex"
