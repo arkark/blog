@@ -108,6 +108,8 @@ theme: cactus
 deploy:
   type: ""
 
+# hexo-html-minifier
+## https://github.com/hexojs/hexo-html-minifier
 html_minifier:
   conservativeCollapse: true
 
@@ -115,4 +117,5 @@ html_minifier:
 ## https://github.com/hexojs/hexo-renderer-markdown-it
 markdown:
   plugins:
+    - markdown-it-emoji
     - "@iktakahiro/markdown-it-katex"
