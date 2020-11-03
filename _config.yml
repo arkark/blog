@@ -107,3 +107,6 @@ theme: cactus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ""
+
+html_minifier:
+  conservativeCollapse: true
