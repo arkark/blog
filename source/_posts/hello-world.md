@@ -1,7 +1,29 @@
 ---
 title: Hello World
+tags:
+    - test1
+    - test2
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
+これはテストです。
+**これはテストです。**
+
+$x^y = 1$
+
+$$
+c = \pm\sqrt{a^2 + b^2}
+$$
+
+:+1:
+ :sparkles:
+
+```javascript
+if (x !== 1) {
+    console.log("Hello world");
+}
+```
+
+**Welcome** to [Hexo](https://hexo.io/)! This is your *very first post*. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
 ## Quick Start
 
