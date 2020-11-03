@@ -103,6 +103,38 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: cactus
 
+# hexo-theme-cactus
+## https://github.com/probberechts/hexo-theme-cactus
+theme_config:
+  projects_url: http://github.com/arkark
+  nav:
+    home: /
+    articles: /posts/
+    tag: /tags/
+    search: /search/
+  social_links:
+    github: https://github.com/arkark
+    twitter: https://twitter.com/arkark_
+  copyright:
+    start_year: 2020
+    end_year:
+  logo:
+    enabled: true
+    width: 50
+    height: 50
+    gravatar: true
+    grayout: false
+  favicon:
+    desktop:
+      gravatar: true
+    android:
+      gravatar: true
+    apple:
+      gravatar: true
+  gravatar:
+    email: target.ark@gmail.com
+    hash: d24027a83078827d4eccfeb8a43433fa
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
