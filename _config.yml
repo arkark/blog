@@ -131,6 +131,7 @@ theme_config:
       gravatar: true
     apple:
       gravatar: true
+  highlight: monokai-sublime
   gravatar:
     email: target.ark@gmail.com
     hash: d24027a83078827d4eccfeb8a43433fa
@@ -150,4 +151,5 @@ html_minifier:
 markdown:
   plugins:
     - markdown-it-emoji
+    - markdown-it-footnote
     - "@iktakahiro/markdown-it-katex"
