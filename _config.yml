@@ -151,4 +151,4 @@ markdown:
   plugins:
     - markdown-it-emoji
     - markdown-it-footnote
-    - "@iktakahiro/markdown-it-katex"
+    # - markdown-it-texmath -> ref. scripts/katex.js
