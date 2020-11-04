@@ -86,6 +86,12 @@ MathJaXより断然KaTeX派です。
 
 ところで[markdown-it-katex](https://github.com/waylonflinn/markdown-it-katex)を使おうとしたら全然メンテナンスされてなくてびっくりしました。たくさんフォークされているし、どれを使えばいいんですか？とりあえず今回は[@iktakahiro/markdown-it-katex](https://github.com/iktakahiro/markdown-it-katex)を使いました。
 
+追記：
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">markdown-it-katexメンテされてないやんけ問題、個人的にはmarkdown-it-texmathなのかなと思っている（mathレンダリングエンジンへの依存を後から注入するスタイルなのが好感度高い）</p>&mdash; sekai🧀 (@sekai67) <a href="https://twitter.com/sekai67/status/1323993294225879041?ref_src=twsrc%5Etfw">November 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+良さそう。[markdown-it-texmath](https://github.com/goessner/markdown-it-texmath)に変更しました。
+
 ### JetBrains Mono
 
 好きなフォントのひとつです。Web fontとして使ってます。
