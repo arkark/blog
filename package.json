@@ -26,7 +26,8 @@
     "hexo-renderer-markdown-it": "^5.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
-    "hexo-uglify": "^2.0.0"
+    "hexo-uglify": "^2.0.0",
+    "twemoji": "^13.0.1"
   },
   "devDependencies": {}
 }
