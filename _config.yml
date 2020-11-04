@@ -134,7 +134,6 @@ theme_config:
   highlight: monokai-sublime
   gravatar:
     email: target.ark@gmail.com
-    hash: d24027a83078827d4eccfeb8a43433fa
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
