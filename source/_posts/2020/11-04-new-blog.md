@@ -61,7 +61,7 @@ Node製の静的サイトジェネレータです。他にGatsby/Hugo/Zolaあた
 
 - 各記事のタイトル付近にツイートボタンを設置
 - フォントをJetBrains Monoに変更
-- その他、CSS (Stylus) を調整
+- CSS (Stylus) を調整
 - etc.
 
 フォークしたリポジトリをgit submoduleで組み込んで使用しています。
