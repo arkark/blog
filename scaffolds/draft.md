@@ -1,5 +1,5 @@
 ---
 title: {{ title }}
 tags:
-thumbnail: /image/default_thumbnail.png
+thumbnail: /images/default_thumbnail.png
 ---
