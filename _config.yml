@@ -134,6 +134,9 @@ theme_config:
   highlight: monokai-sublime
   gravatar:
     email: target.ark@gmail.com
+  google_analytics:
+    enabled: true
+    id: G-589KLZJZPC
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
