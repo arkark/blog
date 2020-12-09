@@ -151,6 +151,8 @@ html_minifier:
 # hexo-renderer-markdown-it
 ## https://github.com/hexojs/hexo-renderer-markdown-it
 markdown:
+  render:
+    typographer: false
   plugins:
     - markdown-it-emoji
     - markdown-it-footnote
