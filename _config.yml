@@ -158,3 +158,4 @@ markdown:
     - markdown-it-footnote
     - markdown-it-imsize
     # - markdown-it-texmath -> ref. scripts/katex.js
+    # - markdown-it-container -> ref. scripts/markdown-container.js
