@@ -1,9 +1,9 @@
-hexo.extend.filter.register('markdown-it:renderer', function(md) {
+hexo.extend.filter.register("markdown-it:renderer", function(md) {
   md.use(
-    require('markdown-it-texmath'),
+    require("markdown-it-texmath"),
     {
-      engine: require('katex'),
-      delimiters:'dollars',
+      engine: require("katex"),
+      delimiters:"dollars",
     }
   );
 });
@@ -13,6 +13,6 @@ hexo.extend.filter.register('after_render:html', function (html) {
 
   return html.replace(
     /(<\/head>)/i,
-    linkTag + '$1'
+    linkTag + "$1",
   );
 });
