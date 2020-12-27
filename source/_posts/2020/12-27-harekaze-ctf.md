@@ -369,7 +369,7 @@ void print_char(char c) {
   }
 }
 ```
-によりXSSが封じられている。しかし、グローバル変数の宣言部分を見ると、
+によりXSSが封じられています。しかし、グローバル変数の宣言部分を見ると、
 ```c
 unsigned char buffer[BUFFER_SIZE] = {0};
 unsigned char *buffer_pointer = buffer;
