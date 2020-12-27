@@ -376,7 +376,7 @@ unsigned char *buffer_pointer = buffer;
 unsigned char memory[MEMORY_SIZE] = {0};
 char program[PROGRAM_MAX_SIZE] = {0};
 ```
-`memory`へのアクセス時にバッファオーバーフローさせて`buffer`を上書きすることが可能だとわかるので、あとはbrainf*ckのcode golfをするだけ。文字数制限は1000文字。小さすぎる。
+`memory`から範囲外アクセスすると`buffer`を上書きすることが可能だとわかるので、あとはbrainf*ckのcode golfをするだけです。文字数制限は1000文字。小さすぎる。
 
 ### 攻撃
 
