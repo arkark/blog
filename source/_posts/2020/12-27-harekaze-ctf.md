@@ -376,7 +376,7 @@ unsigned char *buffer_pointer = buffer;
 unsigned char memory[MEMORY_SIZE] = {0};
 char program[PROGRAM_MAX_SIZE] = {0};
 ```
-`memory`から範囲外アクセスすると`buffer`を上書きすることが可能だとわかるので、あとはbrainf*ckのcode golfをするだけです。文字数制限は1000文字。小さすぎる。
+`memory`から範囲外アクセスすると`buffer`を上書きすることが可能だとわかるので、あとはbrainf*ckのcode golfをするだけです。文字数制限は1000文字。小さい。
 
 ### 攻撃
 
@@ -414,6 +414,12 @@ char program[PROGRAM_MAX_SIZE] = {0};
 ### フラグ
 
 `HarekazeCTF{I_th1nk_w4sm_1s_e4s1er_t0_re4d_th4n_4smjs}`
+
+### 追記
+
+この解法すごい。感動した：
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">#%01-.++[-&lt;+]+[&gt;-]+&lt;img%20src=x%20onerror=alert(1)&gt;<br><br>めっちゃきれいにできた...</p>&mdash; こおしいず(っ&#39;ヮ&#39; )ﾉｼ🚩 (@kcz146) <a href="https://twitter.com/kcz146/status/1343716701842493440?ref_src=twsrc%5Etfw">December 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 感想
 
