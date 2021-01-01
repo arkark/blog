@@ -236,20 +236,20 @@ app.post('/login', async (request, reply) => {
 
 なんとかして`users[username] != password`を騙したいです。
 
-POSTされたデータが`application/x-www-form-urlencoded`の場合は[fastify-formbody](https://github.com/fastify/fastify-formbody)でパースされます[^1]が、`application/json`の場合もちゃんと認識され普通にパースして処理されるようです。
+ところで、POSTされたデータが`application/x-www-form-urlencoded`の場合は[fastify-formbody](https://github.com/fastify/fastify-formbody)でパースされます[^1]が、`application/json`の場合もちゃんと認識され普通にパースして処理されるようです。
 
 [^1]: この問題の本質ではないですが、fastify-formbodyは[qs](https://github.com/ljharb/qs)ではなくnodeのbuiltinである[querystring](https://nodejs.org/api/querystring.html)を使っているらしいです（ref. https://github.com/fastify/fastify-formbody/tree/v5.0.0#upgrading-from-4x ）。知らなかった。配列指定がいつもの`hoge[]=xxx`ではないので注意したい。
 
 JSONならnullを注入できるので
 ```json
 {
-    "username": "適当な値",
+    "username": "適当な値（文字列でなくても良い）",
     "password": null
 }
 ```
-を送信すると、`users[username] != password`が`undefined != undefined`と等価になり、好きな値でログインできてしまいます。
+を送信すると、`users[username] != password`が`undefined != null`と等価になり、好きな値でログインできてしまいます。
 
-あとは型を騙しまくれば、フラグまで一直線。
+あとは型を騙しまくれば、フラグまで一直線です。
 
 
 ### 攻撃
