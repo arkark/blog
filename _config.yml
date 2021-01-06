@@ -159,3 +159,8 @@ markdown:
     - markdown-it-imsize
     # - markdown-it-texmath -> ref. scripts/katex.js
     # - markdown-it-container -> ref. scripts/markdown-container.js
+
+# hexo-generator-seo-friendly-sitemap
+## https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
+sitemap:
+  path: sitemap.xml
