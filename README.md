@@ -1,4 +1,4 @@
-# Blog
+# XS-Spin Blog
 
 - https://blog.arkark.dev
 
