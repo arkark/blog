@@ -1,7 +1,7 @@
 ---
 title: zer0pts CTF 2021 writeup (3 web challs)
 thumbnail: /images/2021/20210309-zer0ptsctf-diploma.png
-date: 2021-03-09 22:00:00
+date: 2021-03-09 1:00:00
 tags:
     - CTF
     - writeup
