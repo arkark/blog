@@ -154,7 +154,10 @@ markdown:
   render:
     typographer: false
   plugins:
-    - markdown-it-emoji
+    - name: markdown-it-emoji
+      options:
+        # Disable shortcuts: e.g. :)
+        shortcuts: {}
     - markdown-it-footnote
     - markdown-it-imsize
     # - markdown-it-texmath -> ref. scripts/katex.js
