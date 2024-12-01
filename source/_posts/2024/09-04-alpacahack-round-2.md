@@ -22,7 +22,7 @@ AlpacaHackには[writeupを投稿する機能](https://alpacahack.com/ctfs/round
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Round 2 (Web) just ended 🦙<br>Thank you to all the players who participated!<br><br>Congratulations to the top 5 players:<br>1. icesfont<br>2. <a href="https://twitter.com/st98_?ref_src=twsrc%5Etfw">@st98_</a><br>3. dimas<br>4. harrier<br>5. <a href="https://twitter.com/hiikun_Z?ref_src=twsrc%5Etfw">@hiikun_Z</a> <a href="https://t.co/2OQvACEsWr">pic.twitter.com/2OQvACEsWr</a></p>&mdash; AlpacaHack (@AlpacaHack) <a href="https://twitter.com/AlpacaHack/status/1830168866619875631?ref_src=twsrc%5Etfw">September 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-さて、今回は以下の問題をつくりました。本記事はそのwriteupになります。問題リポジトリはたぶんそのうち公開されるでしょう。
+さて、今回は以下の問題をつくりました。本記事はそのwriteupになります。
 
 |Challenge|Category|Keywords (spoiler)|Solved|
 |:-:|:-:|:-:|:-:|
