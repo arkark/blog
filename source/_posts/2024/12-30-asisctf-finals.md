@@ -147,7 +147,7 @@ You can get the requested URL from a `PerformanceNavigationTiming` instance trig
 
 ![](/images/2024/202412-asisctf-finals-fetch-box-03.png)
 
-#### Adding a `<meta>` element with CSP:
+#### Adding a `<meta>` element with CSP
 
 From: https://x.com/tyage/status/1873537456920002982
 ```javascript
