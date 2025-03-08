@@ -1,0 +1,66 @@
+/* Theme Color */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"]:root {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Layout */
+:root {
+  --ifm-footer-padding-vertical: 16px; /* default: 32px; */
+}
+main {
+  :not(pre) > code {
+    padding: 0.1em 0.3em;
+    margin: 0 0.1em;
+    font-size: 85%;
+    font-weight: 500;
+    color: #eb5757;
+    word-break: break-all;
+  }
+  pre > code span[class^="codeLineContent"] {
+    word-break: break-all;
+  }
+  :not(h1, h2, h3, h4, h5, sup) > a {
+    margin: 0 0.2em;
+    border-bottom: 0.05em solid;
+  }
+  :not(h1, h2, h3, h4, h5, sup) > a:hover {
+    text-shadow: 0em 0em 0.04em var(--ifm-color-primary-lightest);
+    border-bottom: 0.1em solid;
+    text-decoration: initial;
+  }
+  img,
+  video {
+    box-shadow: 4px 4px 8px 2px rgb(0 0 0 / 10%);
+  }
+}
+
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Fira+Mono:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  /*
+    Default:
+    --ifm-font-family-base: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --ifm-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  */
+  --ifm-font-family-base: "Inter", "BIZ UDGothic", system-ui;
+  --ifm-font-family-monospace: "Fira Mono", "BIZ UDGothic", monospace;
+}
