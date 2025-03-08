@@ -123,6 +123,7 @@ const config: Config = {
       defaultMode: "light",
       disableSwitch: true,
     },
+    metadata: [{ name: "twitter:card", content: "summary" }],
   } satisfies Preset.ThemeConfig,
 };
 
