@@ -3,7 +3,7 @@ title: CTF作問感想 - 2022
 description: 2022年のCTF作問の感想
 tags:
   - diary
-image: /img/ark_128x128.png
+image: /img/ark_white_512x512.png
 ---
 
 2022年につくった各問題の作問感想や背景の話です[^top-1]。writeupではありません。

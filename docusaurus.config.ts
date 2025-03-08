@@ -75,7 +75,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: "img/ark_128x128.png",
+    image: "img/ark_white_512x512.png",
     navbar: {
       title: "XS-Spin Blog",
       logo: {

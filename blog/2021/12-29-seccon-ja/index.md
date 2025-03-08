@@ -3,7 +3,7 @@ title: SECCON CTF 2021 作問感想
 description: SECCON CTF 2021の作問感想です。
 tags:
   - diary
-image: /img/ark_128x128.png
+image: /img/ark_white_512x512.png
 ---
 
 **English writeup is [here](/2021/12/22/seccon/).**

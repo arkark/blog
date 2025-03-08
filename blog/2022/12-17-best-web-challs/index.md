@@ -4,7 +4,7 @@ description: 2022年で特におもしろかったweb問の紹介
 tags:
   - ctf
   - adc
-image: /img/ark_128x128.png
+image: /img/ark_white_512x512.png
 ---
 
 この記事はCTF Advent Calendar 2022 17日目の記事です。
