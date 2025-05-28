@@ -8,9 +8,9 @@ if (!blogTitle) {
 
 const dir = path.join(
   "./blog",
-  `${(await $`date +"%Y-%m-%d"`).stdout.trim()}-${blogTitle}`
+  `${(await $`date +"%Y/%m-%d"`).stdout.trim()}-${blogTitle}`
 );
-await fs.mkdir(dir);
+await fs.mkdir(dir, { recursive: true });
 
 const index = path.join(dir, "index.md");
 const markdown = `
