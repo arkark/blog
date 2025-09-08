@@ -142,7 +142,7 @@ Now, look at `index.php`. It emits `<!DOCTYPE html>` at the beginning, so the pa
 
 ![](./img/step1-02.png)
 
-`document.compatMode === "CSS1Compat"` means the page is no-quirks mode. So, CSS loading appears impossible... Really?
+`document.compatMode === "CSS1Compat"` means the page is in no-quirks mode. So, CSS loading appears impossible... Really?
 
 Last year, [pilvar](https://x.com/pilvar222) showed a novel CSP bypass technique using PHP warnings:
 
@@ -163,7 +163,7 @@ http://localhost:3000/?a&a&a&a&a&a&a&a&a&a&a&...<1001 parameters>...
 
 ![](./img/step1-04.png)
 
-`document.compatMode === "BackCompat"` means the page is quirks mode.
+`document.compatMode === "BackCompat"` means the page is in quirks mode.
 
 At this point, same-origin CSS loading becomes possible even without a `text/css` MIME type.
 
