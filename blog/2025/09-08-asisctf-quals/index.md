@@ -270,6 +270,8 @@ CSS with `display:none` applied → `window.length === 0`:
 This yields a **stable** and **fast** oracle without any external requests:
 
 ```javascript
+const win = open("");
+
 const match = async (pattern) => {
   win.location = "about:blank";
   await sleep(100);
