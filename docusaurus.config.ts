@@ -21,9 +21,6 @@ const config: Config = {
   url: "https://blog.arkark.dev",
   baseUrl: "/",
 
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
