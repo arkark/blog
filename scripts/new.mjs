@@ -19,7 +19,7 @@ title: ${blogTitle}
 description: TODO
 tags:
   - ctf
-image: ./TODO
+# image: ./TODO
 ---
 
 import {Tweet} from "@site/src/components/tweet";
