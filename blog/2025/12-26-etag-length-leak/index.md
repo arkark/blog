@@ -341,7 +341,7 @@ Normally, cross-origin status codes are opaque. However, in this case, we can ex
 When a navigation happens, the browser typically "pushes" a new history entry, increasing `history.length` by 1. However, Chromium sometimes "replaces" the current entry instead of pushing a new one.
 
 Chromium uses `should_replace_current_entry` to decide between "push" and "replace":
-```cpp {4,6} title="https://chromium.googlesource.com/chromium/src/%2B/refs/heads/main/content/browser/renderer_host/navigation_request.cc#7020"
+```cpp {4,6} title="https://source.chromium.org/chromium/chromium/src/+/df9f2fd80f9b8697c877c2c7e7f19d9f389291b8:content/browser/renderer_host/navigation_request.cc;l=7008"
       blink::mojom::NavigationApiEntryRestoreReason reason =
           common_params_->should_replace_current_entry
               ? blink::mojom::NavigationApiEntryRestoreReason::
@@ -352,7 +352,7 @@ Chromium uses `should_replace_current_entry` to decide between "push" and "repla
 
 One condition that can cause "replace" is when a navigation to the same URL fails (with an invalid `page_state`):
 
-- https://chromium.googlesource.com/chromium/src/%2B/refs/heads/main/content/browser/renderer_host/navigation_request.cc#6340
+- https://source.chromium.org/chromium/chromium/src/+/df9f2fd80f9b8697c877c2c7e7f19d9f389291b8:content/browser/renderer_host/navigation_request.cc;l=6307-6308
 - https://source.chromium.org/chromium/chromium/src/+/df9f2fd80f9b8697c877c2c7e7f19d9f389291b8:content/browser/renderer_host/navigation_request.cc;l=10679
 
 Therefore, if we navigate to the same URL twice in a row and the second navigation fails due to a 431 error, those **two** navigations contribute only **one** new history entry (because the second navigation replaces the first).
