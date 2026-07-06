@@ -165,7 +165,7 @@ marked.parse(DOMPurify.sanitize('<div id="1\n\n![](contenteditable/autofocus/onf
 
 この問題については以前に解法や感想をwriteupで書きました。攻撃のステップ数が多く複雑ですが、各要素はそれほど難しくはないのでよかったらぜひ読んでください:
 
-- https://blog.arkark.dev/2022/08/01/uiuctf/
+- https://blog.arkark.dev/2022/07/31/uiuctf/
 
 ひとつの小さい脆弱性からRCEという致命的な脆弱性までもっていくリアルワールド[^spoink-1]的な攻撃を楽しめる問題という点で気に入っています。
 
